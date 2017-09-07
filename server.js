@@ -1,5 +1,6 @@
 var http = require('http');
-var express = require('path');
+var express = require('express');
+var path = require('path');
 var app = express();
 var bodyParser = require('body-parser');
 
