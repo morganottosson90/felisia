@@ -6,10 +6,8 @@
     "start": "node server"
   },
   "license": "Apache",
-  "engines": {
-    "node": "~0.10.0 || ~4.2.0"
-  },
-  "dependencies": {
+
+  "dependencies": { 
     "express": "^4.15.4"
   }
 }
