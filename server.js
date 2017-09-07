@@ -1,5 +1,4 @@
 var http = require('http');
-let express = require('express')
 
 http.createServer(function (req, res) {
     
