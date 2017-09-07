@@ -1,5 +1,7 @@
 var http = require('http');
 var express = require('path');
+var app = express();
+var bodyParser = require('body-parser');
 
 var cat = 1;
 
