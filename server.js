@@ -1,4 +1,6 @@
-let http = require('http');
+var http = require('http');
+
+let cat = 1;
 
 http.createServer(function (req, res) {
     
