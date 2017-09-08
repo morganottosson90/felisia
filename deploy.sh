@@ -107,7 +107,7 @@ if [[ "$IN_PLACE_DEPLOYMENT" -ne "1" ]]; then
 fi
 
 # 2. Select node version
-"6.9.0"
+selectNodeVersion
 
 # 3. Install npm packages
 if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
